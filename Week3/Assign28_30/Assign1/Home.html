@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assign1</title>
+  </head>
+  <body>
+    <form method="get">
+      <div>
+        <input
+          type="hidden"
+          id="token"
+          name="token"
+          value="b92f1fc2fce391ad7af633723afd3055"
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" />
+      </div>
+      <br />
+      <div>
+        <label for="usename">Usename</label>
+        <input
+          type="text"
+          id="usename"
+          name="usename"
+          required
+          minlength="5"
+          maxlength="20"
+        />
+      </div>
+      <br />
+      <div>
+        <input type="reset" value="Empty" />
+        <input type="submit" value="Send" />
+      </div>
+    </form>
+  </body>
+</html>
