@@ -58,3 +58,85 @@ Article
 
 Text
 
+/* Any Element With Class Title */
+
+.title {
+}
+
+/* nav element with id*/
+#nav {
+}
+
+/* any div element */
+div {
+}
+
+/* any h2 */
+h2 {
+}
+
+<!-- external  style css -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!--internal style css  -->
+<style>
+p {
+  color: red;
+}
+</style>
+
+<!-- inline style css -->
+<p style="color: blue;">This Is Our Paragraph</p>
+
+write valid or not valid to these cases in css:
+
+/*  valid */
+._user-name {
+}
+
+/*  vaild */
+.-user-name {
+}
+
+/* not vaid */
+.1user-name {
+}
+
+/* not valid */
+.@user-name {
+}
+
+/* valid */
+.user@name {
+}
+
+/* valid */
+._user10name {
+}
+
+/* valid */
+.u {
+}
+
+write good or bad according to best practise of identifires:
+
+/* bad */
+.USERNAME {
+}
+
+/* bad */
+.UserName {
+}
+
+/* good */
+.user-name {
+}
+
+/* bad */
+.userName {
+}
+
+/* bad */
+.usernameprofile {
+}
+
