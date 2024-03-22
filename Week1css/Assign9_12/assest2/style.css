@@ -1,0 +1,18 @@
+.element {
+  width: 400px;
+  line-height: 3;
+  background-color: rgb(205, 209, 212);
+  margin: 30px;
+  padding-left: 8px;
+}
+.element-2 {
+  visibility: hidden;
+}
+.element-1 {
+  border-left: 8px solid rgb(231, 19, 164);
+  outline: 8px solid rgb(205, 209, 212);
+}
+.element-3 {
+  border-left: 8px solid rgb(7, 135, 67);
+  outline: 8px solid rgb(205, 209, 212);
+}

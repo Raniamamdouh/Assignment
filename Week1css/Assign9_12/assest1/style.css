@@ -1,0 +1,26 @@
+div {
+  display: inline-block;
+  background-color: aliceblue;
+  width: 170px;
+  height: 85px;
+  /*border: 6px solid black;*/
+  text-align: center;
+  padding-top: 46px;
+  margin: 40px;
+}
+.first {
+  border: 5px solid red;
+  outline: 5px solid;
+}
+.second {
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue green;
+  outline: 5px solid;
+}
+.third {
+  border-width: 5px;
+  border-style: dashed;
+  border-color: red green blue yellow;
+  outline: 5px solid;
+}
