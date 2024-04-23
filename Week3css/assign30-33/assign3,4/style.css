@@ -1,0 +1,76 @@
+.parent {
+  width: 400px;
+  margin: 20px auto;
+}
+.html,
+.css,
+.java {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+.html ol,
+.css ol {
+  padding-left: 10px;
+  margin: 10px;
+}
+.css ol {
+  list-style-type: upper-roman;
+}
+.html ol li,
+.css ol li {
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+}
+.java ul {
+  padding-left: 0;
+  margin: 10px;
+}
+.java ul li {
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+  list-style-position: inside;
+  width: auto;
+}
+
+/*Assign4*/
+table {
+  width: 700px;
+  margin: 20px auto;
+}
+table thead td {
+  background-color: #404040;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-spacing: 1px;
+}
+tbody td {
+  background-color: #eee;
+  text-align: center;
+  padding: 5px;
+  border-spacing: 1px;
+}
+.view {
+  background-color: #03a9f4;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-style: none;
+  margin: 10px;
+}
+.delete {
+  background-color: #e91e63;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-style: none;
+}
+caption {
+  font-weight: bold;
+  margin: 10px;
+}

@@ -1,0 +1,55 @@
+.change {
+  font-size: 85px;
+  font-weight: bold;
+  text-shadow: 3px 3px 0 red, 4.4px 4.4px 0 blue, 5.8px 5.8px 0 green;
+  text-align: center;
+  padding: 15px;
+  margin: 15px auto;
+}
+
+.one,
+.two,
+.three {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px auto;
+  padding: 20px;
+}
+.one {
+  text-transform: uppercase;
+}
+.two {
+  text-transform: capitalize;
+}
+.three {
+  text-transform: lowercase;
+}
+.first,
+.second,
+.third {
+  font-size: 25px;
+  background-color: rgb(220, 216, 216);
+  padding: 10px;
+  margin: 15px auto;
+  width: 400px;
+}
+.third {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: #009688;
+  width: 100px;
+  height: 60px;
+  padding: 20px 10px 0px 10px;
+  margin: 20px auto;
+  border-bottom: 8px solid rgb(96, 94, 93);
+}
